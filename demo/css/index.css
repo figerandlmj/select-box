@@ -1,0 +1,120 @@
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+	font-family: "微软雅黑";
+}
+body{
+	background: #fff;
+}
+ul,li{ 
+	list-style: none;
+	list-style-type:none;
+}
+img,input{
+	border:0;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.container{
+	width:1000px;
+	height:100%;
+	margin:0 auto;
+}
+.header{
+	height:80px;
+	border-bottom: 1px solid #e7e7e7;
+}
+.header .logo img{
+	margin-top:20px;
+}
+.navtop{
+	margin-top: 10px;
+}
+.navtop .search{
+    position: relative;
+    background: #f9f9f9;
+    border: 1px solid #e7e7e7;
+    width: 230px;
+    height: 22px;
+    line-height: 22px;
+}
+.navtop .search input{
+	width: 198px;
+    height: 22px;
+    padding-left: 5px;
+    background: none;
+    outline: none;
+}
+.navtop .search img{
+	position: absolute;
+	right:10px;
+	top:6px;
+}
+.navtop p{
+    margin-left: 15px;
+    font-size: 12px;
+    color: #666666;
+    height: 22px;
+    line-height: 22px;
+}
+.navtop p label{
+	color:#f00;
+	padding:0px 14px 0px 4px;
+}
+.navtop .topweiboo{
+	margin:0px 6px 0px 16px;
+}
+.header .banner{
+	margin-top:14px;
+}
+.header .banner a{
+	font-size: 12px;
+	color: #454545;
+}
+.header .banner>li{
+	float:left;
+	position: relative;
+    padding: 0 25px;
+}
+.header .banner li:hover .second{
+	display: block;
+}
+.header .banner>li:last-child{
+	padding-right: 0px;
+}
+.header .banner>li>a:hover{
+	color:#f00;
+}
+.header .second{
+	display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+	z-index: 999;
+}
+.height-30{
+	height:8px;
+}
+.header .second-ul li{
+	background: #f00;
+	text-align: center;
+	padding:10px 0px;
+	border-top:1px solid #fff;
+}
+.header .second-ul li a{
+	color:#fff;
+}
+.header .second-ul li:hover{
+	background: #F98D8D;
+}
